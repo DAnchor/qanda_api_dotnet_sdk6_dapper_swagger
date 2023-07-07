@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A66A3765-FDF8-4E91-9578-328F8E4F196C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QandA.Api", "src\QandA.Api\QandA.Api.csproj", "{35DFB886-513F-474D-8940-82FC5921495A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QandA.DataAccess", "src\QandA.DataAccess\QandA.DataAccess.csproj", "{628DB965-F6AE-4EAE-9BDE-D5FF0980748A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QandA.Services", "src\QandA.Services\QandA.Services.csproj", "{DF43E059-F228-42BC-BA2D-37E45A4ACDAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QandA.DTOs", "src\QandA.DTOs\QandA.DTOs.csproj", "{2083A958-1D6B-49DA-992E-66B7B375B43E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QandA.Security", "src\QandA.Security\QandA.Security.csproj", "{7B292140-1AC8-4C09-9062-D036740AE0C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35DFB886-513F-474D-8940-82FC5921495A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35DFB886-513F-474D-8940-82FC5921495A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35DFB886-513F-474D-8940-82FC5921495A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35DFB886-513F-474D-8940-82FC5921495A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628DB965-F6AE-4EAE-9BDE-D5FF0980748A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628DB965-F6AE-4EAE-9BDE-D5FF0980748A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628DB965-F6AE-4EAE-9BDE-D5FF0980748A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628DB965-F6AE-4EAE-9BDE-D5FF0980748A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF43E059-F228-42BC-BA2D-37E45A4ACDAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF43E059-F228-42BC-BA2D-37E45A4ACDAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF43E059-F228-42BC-BA2D-37E45A4ACDAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF43E059-F228-42BC-BA2D-37E45A4ACDAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2083A958-1D6B-49DA-992E-66B7B375B43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2083A958-1D6B-49DA-992E-66B7B375B43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2083A958-1D6B-49DA-992E-66B7B375B43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2083A958-1D6B-49DA-992E-66B7B375B43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B292140-1AC8-4C09-9062-D036740AE0C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B292140-1AC8-4C09-9062-D036740AE0C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B292140-1AC8-4C09-9062-D036740AE0C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B292140-1AC8-4C09-9062-D036740AE0C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35DFB886-513F-474D-8940-82FC5921495A} = {A66A3765-FDF8-4E91-9578-328F8E4F196C}
+		{628DB965-F6AE-4EAE-9BDE-D5FF0980748A} = {A66A3765-FDF8-4E91-9578-328F8E4F196C}
+		{DF43E059-F228-42BC-BA2D-37E45A4ACDAB} = {A66A3765-FDF8-4E91-9578-328F8E4F196C}
+		{2083A958-1D6B-49DA-992E-66B7B375B43E} = {A66A3765-FDF8-4E91-9578-328F8E4F196C}
+		{7B292140-1AC8-4C09-9062-D036740AE0C2} = {A66A3765-FDF8-4E91-9578-328F8E4F196C}
+	EndGlobalSection
+EndGlobal

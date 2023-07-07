@@ -1,0 +1,58 @@
+# User-specific files
+src/**/*.rsuser
+src/**/*.suo
+src/**/*.user
+src/**/*.userosscache
+src/**/*.sln.docstates
+
+# Build results
+src/**/[Dd]ebug/
+src/**/[Dd]ebugPublic/
+src/**/[Rr]elease/
+src/**/[Rr]eleases/
+src/**/x64/
+src/**/x86/
+src/**/[Ww][Ii][Nn]32/
+src/**/[Aa][Rr][Mm]/
+src/**/[Aa][Rr][Mm]64/
+src/**/bld/
+src/**/[Bb]in/
+src/**/[Oo]bj/
+src/**/[Ll]og/
+src/**/[Ll]ogs/
+
+# .NET Core
+src/**/project.lock.json
+src/**/project.fragment.lock.json
+src/**/artifacts/
+
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+src/**/*.[Pp]ublish.xml
+src/**/*.azurePubxml
+# Note: Comment the next line if you want to checkin your web deploy settings,
+# but database connection strings (with potential passwords) will be unencrypted
+src/**/*.pubxml
+src/**/*.publishproj
+
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+src/**/PublishScripts/
+
+# NuGet Packages
+src/**/*.nupkg
+# NuGet Symbol Packages
+src/**/*.snupkg
+# The packages folder can be ignored because of Package Restore
+src/**/**/[Pp]ackages/*
+# except build/, which is used as an MSBuild target.
+src/**/!**/[Pp]ackages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/[Pp]ackages/repositories.config
+# NuGet v3's project.json files produces more ignorable files
+src/**/*.nuget.props
+src/**/*.nuget.targets
